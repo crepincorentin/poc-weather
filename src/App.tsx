@@ -6,9 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Météo</h1>
       </header>
-      <body>
-      </body>
+      <main>
+        <Weather />
+      </main>
     </div>
   );
 }
